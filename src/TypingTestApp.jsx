@@ -35,9 +35,7 @@ function TypingTestApp() {
 	return (
 		<div className='container'>
 			<h1 className='word'>{word}</h1>
-			<h2 className='count'>
-				{time > 0 ? `Characters typed: ${count}` : `Score: ${count}`}
-			</h2>
+			<h2 className='count'>characters typed: {count}</h2>
 			{time > 0 ? (
 				<>
 					<h4 className='time'>⌛ {time} seconds </h4>
