@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import WpmApp from './WpmApp';
-import './index.css';
+import TypingTestApp from './TypingTestApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
-		<WpmApp />
+		<TypingTestApp />
 	</React.StrictMode>
 );
